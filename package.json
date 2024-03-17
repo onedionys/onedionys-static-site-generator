@@ -1,0 +1,36 @@
+{
+  "name": "onedionys-static-site-generator",
+  "version": "1.0.0",
+  "description": "One Dionys (Static Site Generator) - A utility for generating static websites from dynamic content or data resources, facilitating management and fast page loading.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onedionys/onedionys-static-site-generator.git"
+  },
+  "keywords": [
+    "onedionys",
+    "tea",
+    "package-manager",
+    "static-site-generator"
+  ],
+  "author": "One Dionys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onedionys/onedionys-static-site-generator/issues"
+  },
+  "homepage": "https://github.com/onedionys/onedionys-static-site-generator#readme",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21"
+  }
+}
